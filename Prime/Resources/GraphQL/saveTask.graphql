@@ -1,0 +1,11 @@
+mutation SaveTask($customerId: Int!, $taskRequest: TaskCreateModifyRequest!) {
+    customer(id: $customerId) {
+        task {
+            saveTask(input: $taskRequest) {
+                errors,
+                httpCode,
+                taskId
+            }
+        }
+    }
+}

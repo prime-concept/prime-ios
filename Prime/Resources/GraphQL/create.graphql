@@ -1,0 +1,7 @@
+mutation Create($customerId: Int!, $taskRequest: TaskInput!) {
+    customer(id: $customerId) {
+        task {
+            create(input: $taskRequest)
+        }
+    }
+}

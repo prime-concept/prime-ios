@@ -1,0 +1,67 @@
+name: 'gh/trigger'
+
+on:
+  pull_request:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+jobs:
+  comment_trigger:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check for trigger-comment
+        uses: khan/pull-request-comment-trigger@master
+        id: check
+        with:
+          trigger: '/'
+          prefix_only: true
+          reaction: rocket
+        env:
+          GITHUB_TOKEN: '${{ secrets.TOKEN }}'
+
+      - name: Request for PR info
+        id: request
+        if: steps.check.outputs.triggered == 'true'
+        uses: octokit/request-action@v2.x
+        with:
+          route: ${{ github.event.issue.pull_request.url }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+
+      - name: Get PR informations
+        if: steps.check.outputs.triggered == 'true'
+        id: pr_data
+        run: |
+          echo "PR_BRANCH=${{ fromJson(steps.request.outputs.data).head.ref }}" >> $GITHUB_ENV
+          echo "PR_BRANCH_DEST=${{ fromJson(steps.request.outputs.data).base.ref }}" >> $GITHUB_ENV
+          echo "PR_SHA=${{ fromJson(steps.request.outputs.data).head.sha }}" >> $GITHUB_ENV
+      - name: Set up PIP
+        if: steps.check.outputs.triggered == 'true'
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install requests
+      - name: Checkout buildscripts repo
+        if: steps.check.outputs.triggered == 'true'
+        uses: actions/checkout@v2
+        with:
+          repository: workingeeks/buildscripts
+          token: ${{ secrets.TOKEN }}
+          path: buildscripts
+
+      - name: Checkout repo
+        if: steps.check.outputs.triggered == 'true'
+        uses: actions/checkout@v2
+        with:
+          path: repo
+
+      - name: Get and run python trigger script
+        if: steps.check.outputs.triggered == 'true'
+        run: |
+          export TOKEN=${{ secrets.TOKEN }}
+          export BITRISE_TOKEN=${{ secrets.BITRISE_TOKEN }}
+          export BITRISE_APP_SLUG=${{ secrets.BITRISE_APP_SLUG }}
+          
+          set -xe
+          mv buildscripts/comment_integration/comment_trigger.py repo/.github/comment_trigger.py && python3 repo/.github/comment_handler.py

@@ -1,0 +1,22 @@
+query Orders($lang: String!, $taskId: Int, $orderFilter: OrdersSearchFilter) {
+    viewer(lang: $lang){
+        __typename
+            ... on Order {
+                orders(taskId: $taskId, filter: $orderFilter) {
+                    amount
+                    currency
+                    description
+                    dueDate
+                    id
+                    initiatorUserId
+                    initiatorUserName
+                    optionId
+                    orderStatus
+                    paymentLink
+                    paymentUid
+                    taskId
+                }
+        }
+    }
+}
+

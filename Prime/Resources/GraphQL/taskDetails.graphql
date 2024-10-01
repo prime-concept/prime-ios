@@ -1,0 +1,23 @@
+query TaskDetails($lang: String!, $taskId: Int) {
+	viewer(lang: $lang){
+		__typename
+			... on Customer {
+			tasks(taskId: $taskId) {
+				taskId
+				details {
+						name
+						value
+						type
+						latitude
+						longitude
+				}
+				responsible {
+					lastName
+					firstName
+					phone
+					profileType
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "TERMS OF USE OF THE APPLICATION_compressed (1).pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

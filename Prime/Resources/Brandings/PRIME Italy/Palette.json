@@ -1,0 +1,270 @@
+{
+   "primeFont":{
+      "id":"primeFont",
+      "pointSize":16,
+      "fontName":"GothamPro"
+   },
+   "accentLoader":{
+	  "id":"accentLoader",
+	  "hex":"808080",
+	  "alpha":1
+   },
+   "mainBlack":{
+      "id":"mainBlack",
+      "hex":"382823",
+      "alpha":1
+   },
+   "gray0":{
+      "id":"gray0",
+      "hex":"000000",
+      "alpha":1
+   },
+   "darkColor":{
+      "id":"darkColor",
+      "hex":"363636",
+      "alpha":1
+   },
+   "draft":{
+	  "id":"draft",
+	  "hex":"4A7554",
+	  "alpha":1
+   },
+   "danger":{
+      "id":"danger",
+      "hex":"D0343E",
+      "alpha":1
+   },
+   "brandPrimary":{
+      "id":"brandPrimary",
+      "hex":"202020",
+      "alpha":1
+   },
+   "mainButton":{
+	  "id":"mainButton",
+	  "hex":"000000",
+	  "alpha":1
+   },
+   "brandSecondary":{
+      "id":"brandSecondary",
+      "hex":"000000",
+      "alpha":1
+   },
+   "accentAddress":{
+	  "id":"accentAddress",
+	  "hex":"585858",
+	  "alpha":1
+   },
+   "darkLightColor":{
+      "id":"darkLightColor",
+      "hex":"828082",
+      "alpha":1
+   },
+   "secondBlack":{
+      "id":"secondBlack",
+      "hex":"121212",
+      "alpha":1
+   },
+   "gray4":{
+      "id":"gray4",
+      "hex":"F3F3F3",
+      "alpha":1
+   },
+   "chatAssistantNameColor":{
+      "id":"chatAssistantNameColor",
+      "hex":"4A4A4A",
+      "alpha":1
+   },
+   "brown":{
+      "id":"brown",
+      "hex":"3F1C14",
+      "alpha":1
+   },
+   "clear":{
+      "id":"clear",
+	  "hex":"CLEAR",
+	  "alpha":0
+   },
+   "gray2":{
+      "id":"gray2",
+      "hex":"BCBCBC",
+      "alpha":1
+   },
+   "systemLightGray":{
+      "id":"systemLightGray",
+      "hex":"ABABAB",
+      "alpha":1
+   },
+   "burgundyColor":{
+      "id":"burgundyColor",
+      "hex":"5A2F23",
+      "alpha":1
+   },
+   "attention":{
+      "id":"attention",
+      "hex":"FFB900",
+      "alpha":1
+   },
+   "chatReplySwipeBackground":{
+      "id":"chatReplySwipeBackground",
+      "hex":"807371",
+      "alpha":1
+   },
+   "gray3":{
+      "id":"gray3",
+      "hex":"DBDBDB",
+      "alpha":1
+   },
+   "custom_gray6":{
+      "id":"custom_gray6",
+      "hex":"6D6E71",
+      "alpha":1
+   },
+   "gray1":{
+      "id":"gray1",
+      "hex":"808080",
+      "alpha":1
+   },
+   "custom_lightGray2":{
+      "id":"custom_lightGray2",
+      "hex":"E9E9E9",
+      "alpha":1
+   },
+   "shadow1":{
+      "id":"shadow1",
+      "hex":"382823",
+      "alpha":1
+   },
+   "black":{
+      "id":"black",
+      "hex":"000000",
+      "alpha":1
+   },
+   "fancyFont":{
+      "id":"fancyFont",
+      "pointSize":16,
+      "fontName":"PlayfairDisplay-Bold"
+   },
+   "gray5":{
+      "id":"gray5",
+      "hex":"FFFFFF",
+      "alpha":1
+   },
+   "primaryButton": {
+       "id":"primaryButton",
+       "hex":"0C277D",
+       "alpha":1
+   },
+   "smallTitle" : {
+	 "id" : "smallTitle",
+	 "fontName" : "GothamPro-Medium",
+	 "pointSize" : 16,
+	 "lineHeightMultiplier" : 1.25
+   },
+   "titles": {
+	   "id":"titles",
+	   "hex":"000000",
+	   "alpha":1
+   },
+   "subTitle2" : {
+	 "id" : "subTitle2",
+	 "fontName" : "GothamPro-Medium",
+	 "pointSize" : 13,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "body2" : {
+	 "id" : "body2",
+	 "fontName" : "GothamPro",
+	 "pointSize" : 15,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "body" : {
+	 "id" : "body",
+	 "fontName" : "GothamPro",
+	 "pointSize" : 16,
+	 "lineHeightMultiplier" : 1.25
+   },
+   "caption" : {
+	 "id" : "caption",
+	 "fontName" : "GothamPro-Medium",
+	 "pointSize" : 12,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "subTitle" : {
+	 "id" : "subTitle",
+	 "fontName" : "GothamPro-Medium",
+	 "pointSize" : 14,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "caption2Reg" : {
+	 "id" : "caption2Reg",
+	 "fontName" : "GothamPro",
+	 "pointSize" : 11,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "title4" : {
+	 "id" : "title4",
+	 "fontName" : "GothamPro-Light",
+	 "pointSize" : 18,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "title" : {
+	 "id" : "title",
+	 "fontName" : "GothamPro-Bold",
+	 "pointSize" : 25,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "caption3Reg" : {
+	 "id" : "caption3Reg",
+	 "fontName" : "GothamPro",
+	 "pointSize" : 10,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "captionReg" : {
+	 "id" : "captionReg",
+	 "fontName" : "GothamPro",
+	 "pointSize" : 12,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "title3" : {
+	 "id" : "title3",
+	 "fontName" : "GothamPro-Bold",
+	 "pointSize" : 18,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "smallTitle2" : {
+	 "id" : "smallTitle2",
+	 "fontName" : "GothamPro-Medium",
+	 "pointSize" : 15,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "body3" : {
+	 "id" : "body3",
+	 "fontName" : "GothamPro",
+	 "pointSize" : 14,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "caption2" : {
+	 "id" : "caption2",
+	 "fontName" : "GothamPro-Medium",
+	 "pointSize" : 11,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "title2" : {
+	 "id" : "title2",
+	 "fontName" : "GothamPro-Bold",
+	 "pointSize" : 20,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "caption3" : {
+	 "id" : "caption3",
+	 "fontName" : "GothamPro-Medium",
+	 "pointSize" : 10,
+	 "lineHeightMultiplier" : 1.2
+   },
+   "body4" : {
+	 "id" : "body4",
+	 "fontName" : "GothamPro",
+	 "pointSize" : 13,
+	 "lineHeightMultiplier" : 1.2
+   }
+}

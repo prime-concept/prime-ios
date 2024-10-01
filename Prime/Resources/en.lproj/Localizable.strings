@@ -1,0 +1,585 @@
+// Home
+
+"home.requests.title" = "Requests";
+"home.order.pay.title" = "pay before";
+"home.newRequests.title" = "New requests";
+"home.empty.title" = "You do not have any requests yet";
+"home.empty.subtitle" = "Create one and we will be happy to help";
+"home.request.draft" = "Draft";
+"home.internet.unreachable" = "The network is not available";
+"home.server.unreachable" = "Server is temporary unavailable";
+
+// Small Calendar
+
+"smallCalendar.emptyState" = "There are no events";
+"smallCalendar.today" = "Today";
+"smallCalendar.tomorrow" = "Tomorrow";
+"smallCalendar.allDay" = "All day";
+
+// Full Calendar
+
+"fullCalendar.emptyState" = "There are no events";
+"fullCalendar.upcomingEvents" = "Upcoming";
+"fullCalendar.noEvents" = "No events";
+"fullCalendar.today" = "Today";
+"fullCalendar.allDay" = "All day";
+"fullCalendar.checkIn" = "check in";
+"fullCalendar.checkOut" = "check out";
+
+// Expanding Calendar
+"expandingCalendar.files" = "Files";
+"expandingCalendar.total" = "Total";
+
+// Auth
+
+"auth.next" = "Next";
+"auth.becomeResident" = "Become resident";
+"auth.call" = "Call to OC";
+"auth.terms.consent" = "I consent to the\n";
+"auth.terms.personal.data" = "processing of my personal data";
+"auth.terms.confirm" = "I confirm, that\n";
+"auth.terms.offer" = "I have read this offer";
+"auth.title" = "Enter phone number";
+"auth.acquaintance.title" = "Enter details";
+"auth.acquaintance.email" = "Email";
+"auth.verificationTitle" = "Enter the code you receive via SMS";
+"auth.retryTimer" = "Send code in";
+"auth.retry" = "Send code";
+"auth.problems" = "Problems with login?";
+"auth.codeFromSMS" = "Code from SMS";
+"auth.limitExceeded" = "You have exceeded your login attempts limit";
+"auth.requestCodeAgain" = "Request a new verification code";
+"auth.phoneNumber" = "Phone number";
+"auth.logout" = "Logout";
+"auth.loginWithFaceID" = "Login with Face ID";
+"auth.loginWithTouchID" = "Login with Touch ID";
+
+// Pin Code
+
+"pincode.biometrics.title" = "Requires authentication";
+"pinCode.navigation.createPin.title" = "Create a PIN code";
+"pinCode.navigation.repeatPin.title" = "Repeat the PIN code";
+"pinCode.wasChangedOnOtherDevice" = "It seems your PIN code was changed on another device.\nPlease contact us, if it were not you.";
+"pinCode.wasChangedOnOtherDevice.reset" = "Create a new PIN code";
+
+// Country Code
+
+"country.russia" = "Russia";
+"country.australia" = "Australia";
+"country.bulgaria" = "Bulgaria";
+"country.brasil" = "Brasil";
+"country.germany" = "Germany";
+"country.georgia" = "Georgia";
+"country.denmark" = "Denmark";
+"country.dominicana" = "Dominicana";
+"country.egypt" = "Egypt";
+"country.iceland" = "Iceland";
+"country.spain" = "Spain";
+
+// Create Request
+
+"createTask" = "Create request";
+"createTask.travel" = "TRAVEL";
+"createTask.lifestyle" = "LIFESTYLE";
+"createTask.inProgress" = "IN PROGRESS";
+"createTask.new" = "NEW";
+"createTask.yourAssistant" = "your assistant";
+"createTask.request" = "Request";
+"createTask.in.progress" = "In Progress";
+"createTask.new" = "New";
+"create.request.new" = "New request";
+
+"createTask.chooseExisting" = "Choose existing request";
+"createTask.createNew" = "or create new";
+
+"createTask.form.error.validation.local" = "Fill in the required fields";
+"createTask.form.error.validation.server" = "Some fields are invalid";
+"createTask.form.error.unknown" = "Could not create the request";
+"createTask.form.invalidValue" = "Check if value is correct";
+"createTask.could.not.send.message" = "Failed to send message. ";
+"createTask.check.connection" = "Check your internet connection and try again";
+
+"createTask.all" = "All";
+"createTask.buyCar" = "Buy Car";
+"createTask.airlineLoyaltyProgramm" = "Airline Loyalty Programm";
+"createTask.aeroflotAvia" = "Avia A";
+"createTask.pat" = "PAT";
+"createTask.avia" = "Avia";
+"createTask.helicopter" = "Helicopter";
+"createTask.lowCost" = "Low cost";
+"createTask.privateJet" = "Private Jet";
+"createTask.airportServices" = "Airport Services";
+"createTask.baggage" = "Baggage";
+"createTask.checkIn" = "Check-In";
+"createTask.loyaltyProgrammInfo" = "Loyaty Programm Info";
+"createTask.servicesOnBoard" = "Services on board";
+"createTask.ticketModification" = "Ticket modification";
+"createTask.alcohol" = "Alcohol";
+"createTask.animals" = "Animals";
+"createTask.financialSupport" = "Financial support";
+"createTask.jurispredenceSupport" = "Jurisprudence support";
+"createTask.shoppingAndGifts" = "Shopping & Gifts";
+"createTask.things" = "Things/goods rental";
+"createTask.jewelry" = "Watch/jewelry";
+"createTask.additionalEducation" = "Additional education";
+"createTask.educationPlanning" = "Education planning";
+"createTask.prePrimaryEducation" = "Pre-primary education";
+"createTask.schools" = "Schools";
+"createTask.summerCamps" = "Summer camps";
+"createTask.catering" = "Catering";
+"createTask.eventOrganization" = "Event organization";
+"createTask.ritual" = "Ritual";
+"createTask.beautySalons" = "Beauty: beauty salons, plastic, cosmetic";
+"createTask.spa" = "Beauty: Spa, massage, baths";
+"createTask.checkUpBody" = "Health: check-up body";
+"createTask.firstAid" = "Health: first aid, ambulance";
+"createTask.stomatology" = "Health: stomatology";
+"createTask.hospital" = "Health: surgery / hospital";
+"createTask.hotel" = "Hotels";
+"createTask.trip" = "Trip";
+"createTask.addressPhone" = "Address/phone";
+"createTask.bankInfo" = "Bank Info";
+"createTask.documentSupport" = "Document support";
+"createTask.goodsSearch" = "Goods search";
+"createTask.gosUslugi" = "GosUslugi";
+"createTask.lostNfound" = "Lost'n'found";
+"createTask.pharmacy" = "Pharmacy";
+"createTask.schedule" = "Schedule";
+"createTask.secretary" = "Secretary";
+"createTask.transportInfo" = "Transport Info";
+"createTask.weather" = "Weather";
+"createTask.otherInsurance" = "Other insurance";
+"createTask.travelInsurance" = "Travel insurance";
+"createTask.beeline" = "Beeline";
+"createTask.pondMobile" = "Pond mobile";
+"createTask.eventsList" = "Newsletter/Events list";
+"createTask.sights" = "Newsletter/Sights";
+"createTask.weekendEventsList" = "Newsletters/Weekend events list";
+"createTask.other" = "Other";
+"createTask.buyAndSell" = "Buy&Sell";
+"createTask.rent" = "Rent";
+"createTask.nightlife" = "Nightlife";
+"createTask.restaurants" = "Restaurants";
+"createTask.restaurantsContent" = "Restaurants Content";
+"createTask.highLife" = "High life";
+"createTask.tickets" = "Tickets";
+"createTask.carRental" = "Car rental";
+"createTask.chaufferService" = "Chauffeur service";
+"createTask.transfer" = "Transfer";
+"createTask.passport" = "Passport";
+"createTask.visa" = "Visa";
+"createTask.visaDocuments" = "Visa Documents";
+"createTask.booking" = "Booking";
+"createTask.cinema" = "Cinema";
+"createTask.delivery" = "Delivery";
+"createTask.ferry" = "Ferry";
+"createTask.flowers" = "Flowers";
+"createTask.guidedTour" = "Guided Tour";
+"createTask.invitations" = "Invitations";
+"createTask.primeDesign" = "PRIME Design";
+"createTask.staff" = "Staff";
+"createTask.train" = "Train";
+"createTask.translation" = "Translation";
+"createTask.vipLounge" = "VIP lounge";
+"createTask.yachtRent" = "Yacht rent";
+"createTask.clientComment" = "Client Comment";
+"createTask.clientComplaint" = "Client Complaint";
+"createTask.complaint" = "Complaint";
+"createTask.modifications" = "Modifications";
+"createTask.others" = "Other";
+
+// vip Lounge
+"vipLounge.cost.prefix" = "From";
+
+// Booker
+
+"booker.create.success" = "Booking request successfuly sent";
+"booker.create.error" = "Could not create booking request";
+
+// Select category
+
+"select.category.error" = "Please select a category";
+
+// Detail Request
+
+"detailRequestCreation.select" = "Select";
+"detailRequestCreation.cancel" = "Cancel";
+"detailRequestCreation.selfBuy" = "Buy it yourself";
+"detailRequestCreation.viaAssistant" = "Via assistant";
+"detailRequestCreation.timeZone" = "Time zone";
+"detailRequestCreation.airports.search" = "Search";
+"detailRequestCreation.fillInTheField" = "Fill in the field";
+
+// Selection
+
+"selection.clear" = "Clear";
+"selection.apply" = "Apply";
+"selection.search.invitation" = "Start typing a query to see the results";
+"selection.search.noResults" = "No results found";
+
+// Common
+
+"common.back" = "Back";
+"common.error" = "An error occurred, please try again later";
+"common.welcome" = "Welcome";
+"common.ok" = "OK";
+"common.cancel" = "Cancel";
+"common.error.2" = "Error";
+"common.retry" = "Retry";
+"common.continue" = "Continue";
+"common.search" = "Search";
+"common.close" = "Close";
+
+// Permissions
+
+"permission.biometric.error.description" = "Give permission to login with Biometric";
+"permission.biometric.error.title" = "Biometric error";
+"permission.error.cancel" = "Not Now";
+"settings" = "Settings";
+
+"task.isCompleted.temp" = "Completed";
+
+// Tasks List
+
+"tasksList.type.waitingForPayment" = "Waiting for payment";
+"tasksList.type.history" = "History";
+"tasksList.type.completed" = "Completed";
+"tasksList.type.all" = "All";
+"tasksList.pay" = "Pay";
+
+// Tasks
+"task.isCompleted" = "Completed";
+"task.hasReservation" = "Booked";
+"task.hasReservation.yes" = "Yes";
+"task.hasReservation.verbose" = "Booked";
+"task.detail.title" = "Request";
+"task.detail.detail" = "Details";
+"task.detail.order" = "Order";
+"task.detail.amount" = "Pay amount";
+"task.detail.dueDate" = "Due date";
+"task.detail.created" = "Created";
+"task.detail.payment" = "Payment";
+"task.detail.pay" = "Pay";
+"task.detail.status" = "Status";
+"task.detail.status.requiresPayment" = "Requires payment";
+"task.detail.status.partiallyPaid" = "Partially paid";
+"task.detail.status.paid" = "Paid";
+"task.detail.status.cancel" = "Cancel";
+"task.detail.status.onHold" = "On hold";
+"task.detail.location.name" = "Location";
+
+// Profile
+
+"profile.me" = "Me";
+"profile.cards" = "Cards";
+"profile.documents" = "Documents";
+"profile.contacts" = "Contacts";
+"profile.contacts.primary" = "Primary";
+"profile.persons" = "Family/Partners";
+"profile.payment.cards" = "Payment Cards";
+"profile.loyalty.cards" = "Loyalty Cards";
+"profile.loyalty" = "Loyalty";
+"profile.passports" = "Passports";
+"profile.visas" = "Visas";
+"profile.other" = "Other";
+"profile.phones" = "Phones";
+"profile.family" = "Family";
+"profile.emails" = "E-mails";
+"profile.addresses" = "Addresses";
+"profile.addLoyaltyCards" = "Add loyalty cards";
+"profile.addDocuments" = "Add documents";
+"profile.addContacts" = "Add contacts";
+"profile.addPersons" = "Add persons";
+"profile.addFamilyMembers" = "Add family members";
+"profile.emptyDescription" = "Then we will be able to process your requests faster";
+"profile.add.phone" = "Add Phone";
+"profile.add.email" = "Add Email";
+"profile.add.address" = "Add Address";
+"profile.phone" = "Phone number";
+"profile.email" = "E-mail";
+"profile.comment" = "Comment";
+"profile.type" = "Type";
+"profile.country" = "Country";
+"profile.city" = "City";
+"profile.street" = "Street";
+"profile.house" = "House";
+"profile.apartment" = "Apartment";
+"profile.primarySwitch" = "Make Primary";
+"profile.delete" = "Delete";
+"profile.save" = "Save";
+"profile.delete.alert.phone" = "Are you sure you want to delete this phone?";
+"profile.delete.alert.email" = "Are you sure you want to delete this email?";
+"profile.delete.alert.address" = "Are you sure you want to delete this address?";
+"profile.validation.alert.message" = "Fill the fields";
+"profile.card.addToWallet" = "Add to Wallet";
+"profile.card.addedToWallet" = "Added to";
+"profile.card.qr.expire" = "EXPIRES";
+"profile.phone.code" = "Code";
+"profile.phone.validation.alert.message" = "Invalid phone number";
+
+// Profile settings
+"profile.settings.personalData" = "Personal Data";
+"profile.settings.expenses" = "Finances";
+"profile.settings.expenses.noData.title" = "You had no payments";
+"profile.settings.expenses.noData.subtitle" = "Your financial operations will be displayed here.";
+"profile.settings.other" = "Other";
+"profile.settings.personal.info.policy" = "Privacy policy";
+"profile.settings.delete.account" = "Delete your account";
+"profile.settings.personal.offer" = "Offer";
+"profile.settings.release.version" = "Release version";
+"profile.settings.build.version" = "Build version";
+"profile.settings.toggle.password" = "Password on login";
+"profile.settings.delete.cached.documents" = "Delete cached documents";
+"profile.settings.exit" = "Logout";
+"profile.settings.exit.prompt" = "Are you sure you want to log out?";
+"profile.settings.delete.account.prompt" = "Are you sure you want to delete your profile?";
+"profile.settings.delete.account.success" = "Your profile data has been sucessfully deleted";
+"profile.settings.delete.account.failed" = "Unable to delete your profile data. Please try again";
+"profile.settings.delete.email.title" = "Delete account";
+"profile.settings.delete.email.text" = "Please delete my account";
+"profile.settings.delete.email.username" = "Username";
+"profile.settings.delete.email.fullname" = "Full name";
+"profile.settings.delete.email.projectId" = "Project ID";
+"profile.settings.delete.email.phone" = "Phone";
+"profile.settings.delete" = "Delete";
+"profile.edit.form.firstName" = "First Name";
+"profile.edit.form.lastName" = "Surname";
+"profile.edit.form.middleName" = "Middle Name";
+"profile.edit.form.birthday" = "Date of birth";
+
+// Documents
+
+"documents.title" = "Documents";
+"documents.passport.title" = "Passports";
+"documents.visa.title" = "Visas";
+"documents.other" = "Other";
+"documents.passport.add" = "Add passport";
+"documents.passport.edit" = "Edit passport";
+"documents.visa.add" = "Add visa";
+"documents.visa.edit" = "Edit visa";
+"documents.passport.empty.title" = "You do not have any passports";
+"documents.passport.empty.subtitle" = "Add one to process requests faster";
+"documents.visa.empty.title" = "You do not have any visas";
+"documents.visa.empty.subtitle" = "Add the first one to process requests faster";
+"documents.visa.requirement" = "The visa must be attached to the passport. You do not have any passports";
+"documents.form.delete" = "Delete";
+"documents.form.save" = "Save";
+"documents.form.firstName" = "First name";
+"documents.form.lastName" = "Surname";
+"documents.form.middleName" = "Middle name";
+"documents.form.birthPlace" = "Place of birth";
+"documents.form.birthDate" = "Date of birth";
+"documents.form.issuingAuthority" = "Issuing authority";
+"documents.form.dateOfIssue" = "Date of issue";
+"documents.form.issuingCountry" = "Issuing country";
+"documents.form.authorityId" = "Authority ID";
+"documents.form.nationality" = "Nationality";
+"documents.form.documentNumber" = "Series and number";
+"documents.form.dateOfExpiry" = "Date of expiry";
+"documents.form.visaType" = "Visa type";
+"documents.form.passport" = "Passport";
+"documents.form.visaNumber" = "Visa number";
+"documents.form.commonError" = "An error occurred, please try again later";
+"documents.form.picker.cancel" = "Cancel";
+"documents.form.validation.error" = "Fill in the required fields";
+"documents.visa.type.2" = "Single entry";
+"documents.visa.type.3" = "Multiple entry";
+"documents.visa.type.4" = "Single entry Schengen";
+"documents.visa.type.5" = "Multiple entry Schengen";
+"documents.photo.picker.OKButtonTitle" = "OK";
+"documents.photo.picker.cancelButtonTitle" = "Cancel";
+"documents.photo.picker.doneButtonTitle" = "Done";
+"documents.photo.picker.noImagesTitle" = "No images available";
+"documents.photo.picker.noCameraTitle" = "Camera is not available";
+"documents.photo.picker.settingsTitle" = "Settings";
+"documents.photo.picker.requestPermissionTitle" = "Permission denied";
+"documents.photo.picker.requestPermissionMessage" = "PRIME mobile app needs access to your photo library.";
+
+// Permission
+"permission.error.title" = "Please Allow Access";
+"permission.error.cancel" = "Not Now";
+"permission.description.photo" = "To take photos and videos in PRIME mobile app, you need to allow the app to access your camera.";
+
+// Cards
+"cards.title" = "Loyalty cards";
+"cards.payment.title" = "Payment";
+"cards.other" = "Other";
+"cards.payment.add" = "Add payment";
+"cards.payment.edit" = "Edit payment";
+"cards.loyalty.add" = "Add loyalty";
+"cards.loyalty.edit" = "Edit loyalty";
+"cards.form.cancel" = "Cancel";
+"cards.select" = "Select";
+"cards.cancel" = "Cancel";
+"cards.payment.empty.title" = "You do not have any payment cards";
+"cards.payment.empty.subtitle" = "Add one to process requests faster";
+"cards.loyalty.empty.title" = "You do not have any loyalty cards";
+"cards.loyalty.empty.subtitle" = "Add one to process requests faster";
+"cards.form.delete" = "Delete";
+"cards.form.save" = "Save";
+
+"cards.form.field.card.type" = "Card Type";
+"cards.form.field.card.number" = "Card number";
+
+// Camera
+
+"camera.flash.on" = "ON";
+"camera.flash.off" = "OFF";
+"camera.flash.auto" = "AUTO";
+
+// Contact Prime
+
+"contact.we.will.call.you.back" = "We will call you back";
+
+"contact.we.will.call.you.back.title" = "Your request is sent";
+"contact.we.will.call.you.back.message" = "We will call you back soon";
+
+"contact.we.will.call.you.back.error.title" = "Something went wrong";
+"contact.we.will.call.you.back.error.message" = "Please check your internet connection and try again";
+
+"contact.prime.phone.number.not.confirmed" = "Your number has not been verified.\nTo join the club, you can use one of the methods below";
+"contact.prime.call.prime" = "Call Prime";
+"contact.prime.call" = "Call";
+"contact.prime.callback" = "Callback";
+"contact.prime.go.to.website" = "Go to website";
+
+// Chat
+
+"chat" = "Chat";
+"chat.assistant" = "Assistant";
+"chat.reply.preview.task.link" = "Task-link";
+
+// Airport
+
+"airports.near" = "Airports nearby";
+"airports.recent.search" = "Recently searched";
+"airports.all.airports" = "all airports";
+
+// Avia
+"avia.route" = "Route";
+"avia.route.one" = "One way";
+"avia.route.multi" = "Multi-city";
+"avia.route.round" = "Round trip";
+"avia.class.economy" = "Economy";
+"avia.class.business" = "Bussiness";
+"avia.age.adults" = "Adults";
+"avia.age.children" = "Children";
+"avia.age.infants" = "Infants";
+"avia.passengers.modal.adults.title" = "Adults";
+"avia.passengers.modal.adults.subtitle" = "12+ years";
+"avia.passengers.modal.children.title" = "Children";
+"avia.passengers.modal.children.subtitle" = "Ages 2 to 12";
+"avia.passengers.modal.infants.title" = "Infants";
+"avia.passengers.modal.infants.subtitle" = "Younger than 2";
+"avia.passengers.modal.class.business" = "Business";
+"avia.passengers.modal.class.economy" = "Economy";
+"avia.passengers.modal.class" = "Class";
+"avia.single.date.placeholder" = "Date";
+"avia.departure.date.placeholder" = "Departure";
+"avia.return.date.placeholder" = "Return";
+"avia.departure.placeholder" = "From";
+"avia.arrival.placeholder" = "To";
+"avia.arrival" = "Arrival";
+"avia.add.another.flight" = "Add another flight";
+"avia.segment.both" = "Both";
+"avia.segment.departure" = "Departure";
+"avia.segment.arrival" = "Arrival";
+"avia.passenger" = "Passenger";
+
+//Persons
+
+"persons.edit" = "Edit Person";
+"persons.title" = "Family/Partners";
+"persons.edit.type" = "Contact Type";
+"persons.edit.first.name" = "First Name";
+"persons.edit.middle.name" = "Middle Name";
+"persons.edit.last.name" = "Last Name";
+"persons.edit.birthday" = "Birthday Date";
+
+// Request Form
+
+"form.reset" = "Reset";
+"form.done" = "Done";
+"form.cancel" = "Cancel";
+"form.validation.error" = "Fill in all the fields";
+"form.server.error" = "Something went wrong, please try again later";
+"form.server.error.multiple.users" = "Something went wrong. Please contact our support team";
+"form.server.error.short" = "Something went wrong";
+
+// MARK: - Hotels
+
+"hotel.top.list.title" = "Top";
+"hotel.list.title" = "Hotels";
+"hotel.cities.list.title" = "Cities";
+"hotel.picker.placeholder" = "City or hotel";
+"hotel.dates.picker.placeholder" = "Dates";
+"hotel.list.no.results.title" = "No results were found";
+"hotel.list.no.results.subtitle" = "Try changing the query to display \nthe results";
+"hotel.guests.child" = "Child";
+"hotel.guests.adults" = "Adults";
+"hotel.guests.children" = "Children";
+"hotel.guests.rooms" = "Number of rooms";
+"hotel.guests.ages.of.children" = "Ages of children";
+
+// MARK: - Message Preview
+"message.preview.location" = "Location";
+"message.preview.document" = "Document";
+"message.preview.contact" = "Contact";
+"message.preview.image" = "Image";
+"message.preview.video" = "Video";
+"message.preview.voice.message" = "Voice message";
+"message.preview.unsupported.message" = "Unsupported message";
+
+// MARK: - Rich pushes
+"rich.pushes.hint" = "Your reply";
+"rich.pushes.send" = "Send";
+
+// MARK: - App
+"app.version.outdated" = "Please update the app to continue using it";
+
+// MARK: - Feedback
+"feedback.bad" = "bad";
+"feedback.excellent" = "good";
+"feedback.please.rate1" = "Please rate quality of our service";
+"feedback.please.rate2" = "Please rate\nquality of our service";
+"feedback.submit" = "Submit";
+"feedback.comment.prompt" = "Tell us what you think";
+"feedback.success.title" = "Thank you\nfor your feedback";
+"feedback.success.subtitle" = "You help us\nimprove our service";
+"feedback.thank.you.request.progress" = "Thank you! Request is in progress.";
+
+// MARK: - Aerotickets
+"aerotickets.details" = "Details";
+"aerotickets.other.registration" = "Booking";
+"aerotickets.manual.registration" = "Manual booking";
+"aerotickets.additionalInfo" = "Additional info";
+"aerotickets.passengers" = "Passengers";
+"aerotickets.exchangeActions" = "Exchange/Return";
+
+"aerotickets.class.economy" = "Economy";
+"aerotickets.class.business" = "Business";
+"aerotickets.class.first" = "First class";
+
+"aerotickets.registration.UNREGISTRATED" = "Not attempted";
+"aerotickets.registration.IMPOSSIBLE" = "Impossible";
+"aerotickets.registration.REGISTRATED" = "Checked in";
+"aerotickets.registration.REGISTRATED_ON_OTHER_SEAT" = "Checked in, other seat";
+"aerotickets.registration.REGISTRATED_WITHOUT_BOARDING_PASS" = "Checked in, no boarding pass";
+
+"aerotickets.routeType.ONE_WAY" = "One way";
+"aerotickets.routeType.THERE_AND_BACK" = "There and back";
+"aerotickets.routeType.SEVERAL_WAYS" = "Complex route";
+
+"aerotickets.bookingNumber" = "Booking №";
+"aerotickets.ticketNumber" = "Ticket №";
+"aerotickets.carrier" = "Carrier";
+"aerotickets.seat" = "Seat";
+"aerotickets.registrationStatus" = "Check-in status";
+"aerotickets.routeType" = "Route type";
+"aerotickets.departureTime" = "Departure time";
+"aerotickets.departureGate" = "Departuare gate";
+"aerotickets.arrivalTime" = "Arrival time";
+"aerotickets.arrivalGate" = "Arrival gate";
+"aerotickets.createdAt" = "Booked at";
+"aerotickets.updatedAt" = "Updated at";
+"aerotickets.comment" = "Comment";

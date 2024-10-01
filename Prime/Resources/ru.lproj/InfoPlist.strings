@@ -1,0 +1,11 @@
+// Privacy
+
+"NSCalendarsUsageDescription" = "Чтобы добавлять важные события в ваш календарь";
+"NSCameraUsageDescription" = "Для отправки фото в чате";
+"NSContactsUsageDescription" = "Для отправки контактов в чате";
+"NSFaceIDUsageDescription" = "Приложение использует Face ID для авторизации";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Мы запрашиваем геолокацию, чтобы предложить вам услуги такси и трансферов, порекоменовать лучшие отели, рестораны и музеи в том месте, где вы находитесь";
+"NSLocationWhenInUseUsageDescription" = "Мы запрашиваем геолокацию, чтобы предложить вам услуги такси и трансферов, порекоменовать лучшие отели, рестораны и музеи в том месте, где вы находитесь";
+"NSMicrophoneUsageDescription" = "Для записи аудиосообщений в чате";
+"NSPhotoLibraryUsageDescription" = "Для отправки фото в чате";
+"NSUserTrackingUsageDescription" = "Ваши данные будут использованы для измерения эффективности рекламных кампаний";

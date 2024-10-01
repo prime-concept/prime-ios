@@ -1,0 +1,695 @@
+// Home
+
+"home.requests.title" = "Запросы";
+"home.order.pay.title" = "оплата до";
+"home.newRequests.title" = "Новые обращения";
+"home.empty.title" = "У вас пока нет запросов";
+"home.empty.subtitle" = "Создайте первый и мы с радостью поможем";
+"home.request.draft" = "Черновик";
+"home.internet.unreachable" = "Нет доступа к сети";
+"home.server.unreachable" = "Сервер временно недоступен";
+
+// Small Calendar
+
+"smallCalendar.emptyState" = "Нет событий";
+"smallCalendar.today" = "Сегодня";
+"smallCalendar.tomorrow" = "Завтра";
+"smallCalendar.allDay" = "Весь день";
+
+// Full Calendar
+
+"fullCalendar.emptyState" = "Событий нет";
+"fullCalendar.upcomingEvents" = "Предстоящие";
+"fullCalendar.noEvents" = "Нет событий";
+"fullCalendar.today" = "Сегодня";
+"fullCalendar.allDay" = "Весь день";
+"fullCalendar.checkIn" = "заезд";
+"fullCalendar.checkOut" = "выезд";
+
+// Expanding Calendar
+"expandingCalendar.files" = "Файлы";
+"expandingCalendar.total" = "Всего";
+
+// Auth
+
+"auth.next" = "Далее";
+"auth.becomeResident" = "Стать резидентом";
+"auth.call" = "Звонок в УК";
+"auth.terms.consent" = "Я даю согласие\nна ";
+"auth.terms.personal.data" = "обработку своих персональных данных";
+"auth.terms.confirm" = "Я подтверждаю,\nчто ";
+"auth.terms.offer" = "ознакомился/лась с офертой";
+"auth.title" = "Введите телефон";
+"auth.acquaintance.title" = "Введите данные";
+"auth.acquaintance.email" = "Почта";
+"auth.verificationTitle" = "Введите код из СМС";
+"auth.retryTimer" = "Отправить код";
+"auth.retry" = "Отправить код";
+"auth.problems" = "Проблемы со входом?";
+"auth.codeFromSMS" = "Код из СМС";
+"auth.limitExceeded" = "Вы превысили лимит попыток входа";
+"auth.requestCodeAgain" = "Запросите код повторно";
+"auth.phoneNumber" = "Телефон";
+"auth.logout" = "Выйти";
+"auth.loginWithFaceID" = "Войти через Face ID";
+"auth.loginWithTouchID" = "Войти через Touch ID";
+
+// Pin Code
+
+"pincode.biometrics.title" = "Необходима авторизация";
+"pinCode.navigation.createPin.title" = "Придумайте 4-х значный код";
+"pinCode.navigation.repeatPin.title" = "Повторите 4-х значный код";
+"pinCode.wasChangedOnOtherDevice" = "Похоже, ваш пин-код был изменен на другом устройстве.\nЕсли это сделали не вы, обратитесь в службу поддержки Prime.";
+"pinCode.wasChangedOnOtherDevice.reset" = "Ввести новый";
+
+// Country Code
+
+"country.russia" = "Россия";
+"country.australia" = "Австралия";
+"country.bulgaria" = "Болгария";
+"country.brasil" = "Бразилия";
+"country.germany" = "Германия";
+"country.georgia" = "Грузия";
+"country.denmark" = "Дания";
+"country.dominicana" = "Доминикана";
+"country.egypt" = "Египет";
+"country.iceland" = "Исландия";
+"country.spain" = "Испания";
+
+// Create Request
+
+"createTask" = "Создать запрос";
+"createTask.travel" = "ПУТЕШЕСТВИЕ";
+"createTask.lifestyle" = "ЛАЙФСТАЙЛ";
+"createTask.inProgress" = "ТЕКУЩИЕ";
+"createTask.new" = "НОВЫЕ";
+"createTask.yourAssistant" = "ваш ассистент";
+"createTask.request" = "Запрос";
+"createTask.in.progress" = "В работе";
+"createTask.new" = "Новый";
+"create.request.new" = "Новый запрос";
+
+"createTask.chooseExisting" = "Выберите запрос";
+"createTask.createNew" = "или создайте новый";
+
+"createTask.form.error.validation.local" = "Заполните обязательные поля";
+"createTask.form.error.validation.server" = "Некоторые поля заполнены некорректно";
+"createTask.form.error.unknown" = "Не удалось создать запрос";
+"createTask.form.invalidValue" = "Проверьте правильность";
+"createTask.could.not.send.message" = "Не удалось отправить сообщение. ";
+"createTask.check.connection" = "Проверьте подключение к интернету и попробуйте еще раз";
+
+"createTask.all" = "Все";
+"createTask.buyCar" = "Покупка авто";
+"createTask.airlineLoyaltyProgramm" = "Бонусные мили";
+"createTask.aeroflotAvia" = "Авиа А";
+"createTask.pat" = "PAT";
+"createTask.avia" = "Авиа";
+"createTask.helicopter" = "Вертолеты";
+"createTask.lowCost" = "Лоукостеры";
+"createTask.privateJet" = "Частные самолеты";
+"createTask.airportServices" = "Службы аэропорта";
+"createTask.baggage" = "Багаж";
+"createTask.checkIn" = "Регистрация";
+"createTask.loyaltyProgrammInfo" = "Программа лояльности";
+"createTask.servicesOnBoard" = "Сервисы на борту";
+"createTask.ticketModification" = "Изменение заявки";
+"createTask.alcohol" = "Алкоголь";
+"createTask.animals" = "Животные";
+"createTask.financialSupport" = "Финансовая поддержка";
+"createTask.jurispredenceSupport" = "Юридическая поддержка";
+"createTask.shoppingAndGifts" = "Шоппинг и подарки";
+"createTask.things" = "Аренда";
+"createTask.jewelry" = "Часы и украшения";
+"createTask.additionalEducation" = "Дополнительное образование";
+"createTask.educationPlanning" = "Планирование образования";
+"createTask.prePrimaryEducation" = "Дошкольное образование";
+"createTask.schools" = "Школы";
+"createTask.summerCamps" = "Летние лагеря";
+"createTask.catering" = "Кейтеринг";
+"createTask.eventOrganization" = "Организация мероприятий";
+"createTask.ritual" = "Ритуальные услуги";
+"createTask.beautySalons" = "Салоны красоты, пластика, косметика";
+"createTask.spa" = "Спа, массаж, ванны";
+"createTask.checkUpBody" = "Медосмотры";
+"createTask.firstAid" = "Скорая помощь";
+"createTask.stomatology" = "Стоматология";
+"createTask.hospital" = "Больницы";
+"createTask.hotel" = "Отели";
+"createTask.trip" = "Путешествия";
+"createTask.addressPhone" = "Адреса и телефоны";
+"createTask.bankInfo" = "Банковская информация";
+"createTask.documentSupport" = "Поддержка документов";
+"createTask.goodsSearch" = "Поиск товаров";
+"createTask.gosUslugi" = "ГосУслуги";
+"createTask.lostNfound" = "Бюро находок";
+"createTask.pharmacy" = "Аптеки";
+"createTask.schedule" = "Планирование дел";
+"createTask.secretary" = "Услуги секретаря";
+"createTask.transportInfo" = "Информация о транспорте";
+"createTask.weather" = "Погода";
+"createTask.otherInsurance" = "Другие страховки";
+"createTask.travelInsurance" = "Туристическая страховка";
+"createTask.beeline" = "Билайн";
+"createTask.pondMobile" = "Pond mobile";
+"createTask.eventsList" = "События";
+"createTask.sights" = "Достопримечательности";
+"createTask.weekendEventsList" = "События выходного дня";
+"createTask.other" = "Другие";
+"createTask.buyAndSell" = "Купля-продажа";
+"createTask.rent" = "Аренда";
+"createTask.nightlife" = "Ночная жизнь";
+"createTask.restaurants" = "Рестораны";
+"createTask.restaurantsContent" = "Контент ресторанов";
+"createTask.highLife" = "Светская жизнь";
+"createTask.tickets" = "Билеты";
+"createTask.carRental" = "Аренда авто";
+"createTask.chaufferService" = "Услуги водителя";
+"createTask.transfer" = "Трансферы";
+"createTask.passport" = "Паспорта";
+"createTask.visa" = "Визы";
+"createTask.visaDocuments" = "Документы для виз";
+"createTask.booking" = "Бронирование";
+"createTask.cinema" = "Кинотеатры";
+"createTask.delivery" = "Доставки";
+"createTask.ferry" = "Паромы";
+"createTask.flowers" = "Цветы";
+"createTask.guidedTour" = "Экскурсии";
+"createTask.invitations" = "Приглашения";
+"createTask.primeDesign" = "PRIME Design";
+"createTask.staff" = "Персонал";
+"createTask.train" = "Поезда";
+"createTask.translation" = "Услуги переводчика";
+"createTask.vipLounge" = "VIP-залы";
+"createTask.yachtRent" = "Аренда яхт";
+"createTask.clientComment" = "Комментарии клиента";
+"createTask.clientComplaint" = "Жалобы клиента";
+"createTask.complaint" = "Жалобы";
+"createTask.modifications" = "Изменения";
+"createTask.others" = "Другое";
+
+// vip Lounge
+"vipLounge.cost.prefix" = "От";
+
+// Booker
+
+"booker.create.success" = "Заявка на бронирование создана успешно";
+"booker.create.error" = "Не удалось создать заявку на бронирование";
+
+// Select category
+
+"select.category.error" = "Пожалуйста выберите категорию";
+
+// Detail Request
+
+"detailRequestCreation.select" = "Выбрать";
+"detailRequestCreation.cancel" = "Отмена";
+"detailRequestCreation.selfBuy" = "Купить самостоятельно";
+"detailRequestCreation.viaAssistant" = "Через ассистента";
+"detailRequestCreation.timeZone" = "Часовой пояс";
+"detailRequestCreation.airports.search" = "Поиск";
+"detailRequestCreation.fillInTheField" = "Заполните поле";
+
+// Selection
+
+"selection.clear" = "Очистить";
+"selection.apply" = "Применить";
+"selection.search.invitation" = "Начните вводить запрос, чтобы увидеть результаты";
+"selection.search.noResults" = "Результатов не найдено";
+
+// Common
+
+"common.back" = "Назад";
+"common.error" = "Произошла ошибка, повторите позднее";
+"common.welcome" = "Добро пожаловать";
+"common.ok" = "OK";
+"common.cancel" = "Отмена";
+"common.error.2" = "Ошибка";
+"common.retry" = "Повторить";
+"common.continue" = "Продолжить";
+"common.search" = "Поиск";
+"common.close" = "Закрыть";
+
+// Permissions
+
+"permission.biometric.error.description" = "Для входа в систему с биометрическими данными необходимо дать разрешение";
+"permission.biometric.error.title" = "Ошибка распознавания";
+"permission.error.cancel" = "Позднее";
+"settings" = "Настройки";
+
+"task.isCompleted.temp" = "Выполнено";
+
+// Tasks List
+"tasksList.type.waitingForPayment" = "К оплате";
+"tasksList.type.history" = "История";
+"tasksList.type.completed" = "Завершенные";
+"tasksList.type.all" = "Все";
+"tasksList.pay" = "Оплатить";
+
+// Tasks
+"task.isCompleted" = "Завершено";
+"task.hasReservation" = "Бронь";
+"task.hasReservation.yes" = "Да";
+"task.hasReservation.verbose" = "Забронировано";
+"task.detail.detail" = "Детали";
+"task.detail.title" = "Запрос";
+"task.detail.order" = "Ордер";
+"task.detail.amount" = "Сумма к оплате";
+"task.detail.dueDate" = "Оплатить до";
+"task.detail.created" = "Создано";
+"task.detail.payment" = "Оплата";
+"task.detail.pay" = "Оплатить";
+"task.detail.status" = "Статус";
+"task.detail.status.requiresPayment" = "Требует оплаты";
+"task.detail.status.partiallyPaid" = "Частично оплачено";
+"task.detail.status.paid" = "Оплачено";
+"task.detail.status.cancel" = "Отмена";
+"task.detail.status.onHold" = "Деньги зарезервированы";
+"task.detail.location.name" = "Местоположение";
+
+// Profile
+
+"profile.me" = "Я";
+"profile.cards" = "Карты";
+"profile.documents" = "Документы";
+"profile.contacts" = "Контакты";
+"profile.contacts.primary" = "Основной";
+"profile.persons" = "Семья/Партнеры";
+"profile.payment.cards" = "Платежные карты";
+"profile.loyalty.cards" = "Карты лояльности";
+"profile.loyalty" = "Лояльность";
+"profile.passports" = "Паспорта";
+"profile.visas" = "Визы";
+"profile.other" = "Другое";
+"profile.phones" = "Телефоны";
+"profile.family" = "Семья";
+"profile.emails" = "E-mail";
+"profile.addresses" = "Адреса";
+"profile.addLoyaltyCards" = "Добавьте карты лояльности";
+"profile.addDocuments" = "Добавьте документы";
+"profile.addContacts" = "Добавьте контакты";
+"profile.addPersons" = "Добавьте персон";
+"profile.addFamilyMembers" = "Добавьте членов семьи";
+"profile.emptyDescription" = "Мы сможем быстрее обрабатывать ваши запросы";
+"profile.add.phone" = "Добавить телефон";
+"profile.add.email" = "Добавить почту";
+"profile.add.address" = "Добавить адрес";
+"profile.phone" = "Номер телефона";
+"profile.email" = "E-mail";
+"profile.comment" = "Комментарии";
+"profile.type" = "Тип";
+"profile.country" = "Страна";
+"profile.city" = "Город";
+"profile.street" = "Улица";
+"profile.house" = "Дом";
+"profile.apartment" = "Квартира";
+"profile.primarySwitch" = "Сделать основным";
+"profile.delete" = "Удалить";
+"profile.save" = "Сохранить";
+"profile.delete.alert.phone" = "Вы уверены, что хотите удалить этот телефон?";
+"profile.delete.alert.email" = "Вы уверены, что хотите удалить эту почту?";
+"profile.delete.alert.address" = "Вы уверены, что хотите удалить этот адрес?";
+"profile.validation.alert.message" = "Заполните поля";
+"profile.card.addToWallet" = "Добавить в Wallet";
+"profile.card.addedToWallet" = "Добавлена в";
+"profile.card.qr.expire" = "ИСТЕКАЕТ";
+"profile.phone.code" = "Код";
+"profile.phone.validation.alert.message" = "Невалидный номер телефона";
+
+// Profile settings
+"profile.settings.personalData" = "Персональные данные";
+"profile.settings.expenses" = "Финансы";
+"profile.settings.expenses.noData.title" = "У вас не было трат";
+"profile.settings.expenses.noData.subtitle" = "Ваши финансовые операции будут отображаться тут.";
+"profile.settings.other" = "Другие настройки";
+"profile.settings.personal.info.policy" = "Политика обработки персональных данных";
+"profile.settings.personal.offer" = "Оферта";
+"profile.settings.delete.account" = "Удалить профиль";
+"profile.settings.exit" = "Выход";
+"profile.settings.exit.prompt" = "Вы уверены, что хотите выйти?";
+"profile.settings.delete.account.prompt" = "Вы уверены, что хотите удалить свой профиль?";
+"profile.settings.delete.account.success" = "Данные вашего профиля успешно удалены";
+"profile.settings.delete.email.title" = "Удаление аккаунта";
+"profile.settings.delete.email.text" = "Прошу удалить аккаунт";
+"profile.settings.delete.email.username" = "Пользователь";
+"profile.settings.delete.email.fullname" = "Имя пользователя";
+"profile.settings.delete.email.projectId" = "ID проекта";
+"profile.settings.delete.email.phone" = "Телефон";
+"profile.settings.delete.account.failed" = "Не удалось удалить данные вашего профиля. Попробуйте позже.";
+"profile.settings.delete" = "Удалить";
+"profile.settings.release.version" = "Версия приложения";
+"profile.settings.build.version" = "Номер сборки";
+"profile.settings.toggle.password" = "Пароль при входе";
+"profile.settings.delete.cached.documents" = "Очистить кэш документов";
+"profile.edit.form.firstName" = "Имя";
+"profile.edit.form.lastName" = "Фамилия";
+"profile.edit.form.middleName" = "Отчество";
+"profile.edit.form.birthday" = "День Рождения";
+
+// Documents
+
+"documents.title" = "Документы";
+"documents.passport.title" = "Паспорта";
+"documents.visa.title" = "Визы";
+"documents.other" = "Прочее";
+"documents.passport.add" = "Добавить паспорт";
+"documents.passport.edit" = "Редактировать";
+"documents.visa.add" = "Добавить визу";
+"documents.visa.edit" = "Редактировать";
+"documents.passport.empty.title" = "У вас пока нет паспортов";
+"documents.passport.empty.subtitle" = "Добавьте первый для ускоренной обработки запросов";
+"documents.visa.empty.title" = "У вас пока нет виз";
+"documents.visa.empty.subtitle" = "Добавьте первую для ускоренной обработки запросов";
+"documents.visa.requirement" = "Виза должна быть прикреплена к паспорту. У вас пока нет паспортов";
+"documents.form.delete" = "Удалить";
+"documents.form.save" = "Сохранить";
+"documents.form.firstName" = "Имя";
+"documents.form.lastName" = "Фамилия";
+"documents.form.middleName" = "Отчество";
+"documents.form.birthPlace" = "Место рождения";
+"documents.form.birthDate" = "Дата рождения";
+"documents.form.issuingAuthority" = "Кем выдан";
+"documents.form.dateOfIssue" = "Дата выдачи";
+"documents.form.issuingCountry" = "Страна выдачи";
+"documents.form.authorityId" = "Код подразделения";
+"documents.form.nationality" = "Гражданство";
+"documents.form.documentNumber" = "Серия и номер";
+"documents.form.dateOfExpiry" = "Действителен до";
+"documents.form.visaType" = "Тип визы";
+"documents.form.passport" = "Паспорт";
+"documents.form.visaNumber" = "Номер визы";
+"documents.form.commonError" = "Произошла ошибка, повторите позднее";
+"documents.form.picker.cancel" = "Отмена";
+"documents.form.validation.error" = "Заполните обязательные поля";
+"documents.visa.type.2" = "Однократная";
+"documents.visa.type.3" = "Многократная";
+"documents.visa.type.4" = "Однократная шенгенская";
+"documents.visa.type.5" = "Многократная шенгенская";
+"documents.photo.picker.OKButtonTitle" = "OK";
+"documents.photo.picker.cancelButtonTitle" = "Отмена";
+"documents.photo.picker.doneButtonTitle" = "Готово";
+"documents.photo.picker.noImagesTitle" = "Изображений не найдено";
+"documents.photo.picker.noCameraTitle" = "Нет доступа к камере";
+"documents.photo.picker.settingsTitle" = "Настройки";
+"documents.photo.picker.requestPermissionTitle" = "Нет доступа";
+"documents.photo.picker.requestPermissionMessage" = "Приложению PRIME необходим доступ к вашей фотогалерее";
+
+// Permission
+"permission.error.title" = "Пожалуйста, разрешите доступ";
+"permission.error.cancel" = "Не сейчас";
+"permission.description.photo" = "Приложению PRIME необходим доступ к камере, чтобы вы могли делать фотографии";
+
+// Cards
+"cards.title" = "Карты лояльности";
+"cards.payment.title" = "Платежные";
+"cards.other" = "Прочее";
+"cards.payment.add" = "Добавить платежную карту";
+"cards.payment.edit" = "Изменить платежную карту";
+"cards.loyalty.add" = "Добавить карту лояльности";
+"cards.loyalty.edit" = "Изменить карту лояльности";
+"cards.form.cancel" = "Отмена";
+"cards.select" = "Выбрать";
+"cards.cancel" = "Отмена";
+"cards.payment.empty.title" = "У вас пока нет платежных карт";
+"cards.payment.empty.subtitle" = "Добавьте первый для ускоренной обработки запросов";
+"cards.loyalty.empty.title" = "У вас пока нет карт лояльности";
+"cards.loyalty.empty.subtitle" = "Добавьте первую для ускоренной обработки запросов";
+"cards.form.delete" = "Удалить";
+"cards.form.save" = "Сохранить";
+"cards.form.field.card.type" = "Тип карты";
+"cards.form.field.card.number" = "Номер карты";
+
+// Camera
+
+"camera.flash.on" = "ВКЛ";
+"camera.flash.off" = "ВЫКЛ";
+"camera.flash.auto" = "АВТО";
+
+// Onboarding
+
+"onboarding.headline" = "5 причин для выбора PRIME";
+"onboarding.1st.page.title" = "Ваши заботы\n– наша миссия";
+"onboarding.1st.page.1st.paragraph" = "
+Наша задача – понять Вас и сделать так, \
+чтобы в Вашей жизни осталось \
+место только для приятных моментов. \
+Наши ассистенты предложат \
+Вам нестандартные решения \
+любой поставленной задачи.
+";
+"onboarding.1st.page.2nd.paragraph" = "
+Ваш персональный ассистент – \
+часть отлаженного механизма \
+клуба PRIME, признанного лидера \
+в предоставлении консьерж-услуг.
+";
+"onboarding.1st.page.subtitle" = "Мы сопровождаем Вас 24 часа\nв сутки, 7 дней в неделю.";
+
+"onboarding.2nd.page.title" = "Аркадий Новиков";
+"onboarding.2nd.page.1st.paragraph" = "
+Сейчас у клиентов есть выбор, \
+с кем работать, предложений много. \
+И в этом многообразии я доверяю PRIME.
+";
+
+"onboarding.3rd.page.title" = "Путешествия\nбез границ";
+"onboarding.3rd.page.1st.paragraph" = "
+Мы организуем Ваше путешествие \
+и незримо будем сопровождать Вас \
+в каждый его момент. Пока Вы \
+в дороге – Вы не одиноки.
+";
+"onboarding.3rd.page.2nd.paragraph" = "
+Забронировать любой из отелей \
+PRIME Hotel Collection Вы можете прямо \
+в мобильном приложении.
+";
+"onboarding.3rd.page.1st.dot" = "Повышение категории номера";
+"onboarding.3rd.page.2nd.dot" = "Ранний заезд и поздний выезд";
+"onboarding.3rd.page.3rd.dot" = "Бесплатный завтрак";
+"onboarding.3rd.page.4th.dot" = "Комплименты от отеля и ваучеры в Spa";
+"onboarding.3rd.page.subtitle" = "Привилегии более чем\nв 700 отелях:";
+
+"onboarding.4th.page.title" = "Ксения Собчак";
+"onboarding.4th.page.1st.paragraph" = "
+Уже более 10 лет консьерж-служба \
+PRIME удивляет меня безупречным \
+сервисом и серьёзным отношением к членам Клуба.
+";
+"onboarding.4th.page.2nd.paragraph" = "
+Только PRIME я безоговорочно \
+доверяю организацию путешествий.
+";
+
+"onboarding.5th.page.title" = "Исключительные привилегии";
+"onboarding.5th.page.1st.paragraph" = "
+Наша привилегия – знать, \
+что Вы стали членом клуба, и заботиться о Вас. \
+Ваша привилегия – пользоваться специальными \
+условиями, которые предоставили \
+Клубу его партнёры по всему миру.
+";
+
+"onboarding.6th.page.title" = "Александр Раппопорт";
+"onboarding.6th.page.1st.paragraph" = "
+Пользуясь услугами PRIME, можно забыть \
+о многих вопросах, связанных с путешествиями. \
+Консьерж-служба заботится буквально обо всем.
+";
+"onboarding.6th.page.2nd.paragraph" = "
+Бронирование отелей я \
+неизменно доверяю PRIME.
+";
+
+"onboarding.7th.page.title" = "Доступность сервисов";
+"onboarding.7th.page.1st.dot" = "Ваши запросы и статус по ним всегда под рукой";
+"onboarding.7th.page.2nd.dot" = "Все Ваши карты и данные в одном\nместе";
+"onboarding.7th.page.3rd.dot" = "Чат с ассистентом в приложении, Telegram и WhatsApp";
+"onboarding.7th.page.4th.dot" = "Оформление авиабилетов непосредственно в приложении";
+"onboarding.7th.page.5th.dot" = "Доставка еды и бронирование ресторана в несколько кликов";
+"onboarding.7th.page.6th.dot" = "Быстрый заказ цветов, подарков и получение специальных сервисов";
+"onboarding.7th.page.7th.dot" = "Доступ в закрытый винный клуб PRIME WINE";
+
+"onboarding.8th.page.title" = "Федор Бондарчук";
+"onboarding.8th.page.1st.paragraph" = "
+В работе с PRIME я всегда уверен \
+в том, что к любому моему запросу отнесутся с \
+максимальным вниманием, и качество сервиса будет безупречным.
+";
+"onboarding.8th.page.2nd.paragraph" = "
+PRIME – это консьерж-сервис \
+в лучшем его варианте, который \
+могу смело рекомендовать всем знакомым.
+";
+
+"onboarding.9th.page.title" = "Организация свободного времени";
+"onboarding.9th.page.1st.paragraph" = "
+Мы не настаиваем, мы рекомендуем. Рекомендуем лучшее.
+";
+"onboarding.9th.page.2nd.paragraph" = "
+Цифровое издание журнала PRIME Traveller – это онлайн-платформа \
+с гидами и рекомендациями более чем \
+по 70 городам России и мира. К Вашим услугам \
+–рейтинги лучших отелей, ресторанов, \
+сервисов, локаций и партнёров, а также \
+календари мероприятий, идеи для путешествий \
+и организации досуга, маршруты \
+и рекомендации от наших постоянных \
+авторов и экспертов. Всё – в одном приложении.
+";
+
+// Contact Prime
+
+"contact.we.will.call.you.back" = "Мы вам перезвоним";
+
+"contact.we.will.call.you.back.title" = "Заявка успешно отправлена";
+"contact.we.will.call.you.back.message" = "Мы свяжемся с вами по указанному номеру в ближайшее время";
+
+"contact.we.will.call.you.back.error.title" = "Что-то пошло не так";
+"contact.we.will.call.you.back.error.message" = "Проверьте подключение и попробуйте еще раз";
+
+"contact.prime.phone.number.not.confirmed" = "Ваш номер не был подтвержден.\nЧтобы вступить в клуб, воспользуйтесь одним из способов ниже";
+"contact.prime.callback" = "Обратный звонок";
+"contact.prime.call" = "Позвонить";
+"contact.prime.go.to.website" = "Перейти на сайт";
+
+// Chat
+
+"chat" = "Чат";
+"chat.assistant" = "Ассистент";
+"chat.reply.preview.task.link" = "Таск-линк";
+
+// Airport
+
+"airports.near" = "Аэропорты рядом";
+"airports.recent.search" = "Вы недавно искали";
+"airports.all.airports" = "все аэропорты";
+
+// Avia
+"avia.route" = "Маршрут";
+"avia.route.one" = "В одну сторону";
+"avia.route.multi" = "Сложный маршрут";
+"avia.route.round" = "Туда-обратно";
+"avia.class.economy" = "Эконом";
+"avia.class.business" = "Бизнес";
+"avia.age.adults" = "Взрослые";
+"avia.age.children" = "Дети";
+"avia.age.infants" = "Младенцы";
+"avia.passengers.modal.adults.title" = "Взрослые";
+"avia.passengers.modal.adults.subtitle" = "12+ лет";
+"avia.passengers.modal.children.title" = "Дети";
+"avia.passengers.modal.children.subtitle" = "От 2 до 12 лет";
+"avia.passengers.modal.infants.title" = "Младенцы";
+"avia.passengers.modal.infants.subtitle" = "Младше 2 лет";
+"avia.passengers.modal.class.business" = "Бизнес";
+"avia.passengers.modal.class.economy" = "Эконом";
+"avia.passengers.modal.class" = "Класс";
+"avia.single.date.placeholder" = "Дата";
+"avia.departure.date.placeholder" = "Туда";
+"avia.return.date.placeholder" = "Обратно";
+"avia.departure.placeholder" = "Откуда";
+"avia.arrival.placeholder" = "Куда";
+"avia.arrival" = "Прибытие";
+"avia.add.another.flight" = "Добавить маршрут";
+"avia.segment.both" = "Оба";
+"avia.segment.departure" = "Вылет";
+"avia.segment.arrival" = "Прилет";
+"avia.passenger" = "Пассажир";
+
+//Persons
+
+"persons.edit" = "Изменить Персону";
+"persons.title" = "Семья/Партнеры";
+"persons.edit.type" = "Тип персоны";
+"persons.edit.first.name" = "Имя";
+"persons.edit.middle.name" = "Отчество";
+"persons.edit.last.name" = "Фамилия";
+"persons.edit.birthday" = "День Рождения";
+
+// Request form
+
+"form.reset" = "Сброс";
+"form.done" = "Готово";
+"form.cancel" = "Отмена";
+"form.validation.error" = "Заполните все поля";
+"form.server.error" = "Что-то пошло не так, попробуйте позже";
+"form.server.error.multiple.users" = "Что-то пошло не так. Пожалуйста, обратитесь в службу поддержки";
+"form.server.error.short" = "Что-то пошло не так";
+
+// MARK: - Hotels
+
+"hotel.top.list.title" = "Топ";
+"hotel.list.title" = "Отели";
+"hotel.cities.list.title" = "Города";
+"hotel.picker.placeholder" = "Город или отель";
+"hotel.dates.picker.placeholder" = "Заезд - Выезд";
+"hotel.list.no.results.title" = "Ничего не найдено";
+"hotel.list.no.results.subtitle" = "Попробуйте изменить запрос для отображения результатов";
+"hotel.guests.child" = "Ребёнок";
+"hotel.guests.adults" = "Взрослые";
+"hotel.guests.children" = "Дети";
+"hotel.guests.rooms" = "Количество комнат";
+"hotel.guests.ages.of.children" = "Возраст детей";
+
+// MARK: - Message Preview
+"message.preview.location" = "Местоположение";
+"message.preview.document" = "Документ";
+"message.preview.contact" = "Контакт";
+"message.preview.image" = "Изображение";
+"message.preview.video" = "Видео";
+"message.preview.voice.message" = "Голосовое сообщение";
+"message.preview.unsupported.message" = "Неподдерживаемое сообщение";
+
+// MARK: - Rich pushes
+"rich.pushes.hint" = "Ответить на сообщение";
+"rich.pushes.send" = "Отправить";
+
+// MARK: - App
+"app.version.outdated" = "Приложение устарело, его необходимо обновить";
+
+// MARK: - Feedback
+"feedback.bad" = "плохо";
+"feedback.excellent" = "хорошо";
+"feedback.please.rate1" = "Оцените работу над запросом";
+"feedback.please.rate2" = "Оцените работу\nнад запросом";
+"feedback.submit" = "Отправить";
+"feedback.comment.prompt" = "Оставьте ваш отзыв";
+"feedback.success.title" = "Благодарим\nза обратную связь";
+"feedback.success.subtitle" = "Ваша оценка помогает нам\nулучшать качество сервиса";
+"feedback.thank.you.request.progress" = "Спасибо! Запрос находится в обработке.";
+
+// MARK: - Aerotickets
+"aerotickets.details" = "Детали";
+"aerotickets.other.registration" = "Бронирование";
+"aerotickets.manual.registration" = "Самостоятельное бронирование";
+"aerotickets.additionalInfo" = "Доп. информация";
+"aerotickets.passengers" = "Пассажиры";
+"aerotickets.exchangeActions" = "Обмен/Возврат";
+
+"aerotickets.class.economy" = "Эконом класс";
+"aerotickets.class.business" = "Бизнес класс";
+"aerotickets.class.first" = "Первый класс";
+
+"aerotickets.registration.UNREGISTRATED" = "Не проводилась";
+"aerotickets.registration.IMPOSSIBLE" = "Невозможна";
+"aerotickets.registration.REGISTRATED" = "Пройдена";
+"aerotickets.registration.REGISTRATED_ON_OTHER_SEAT" = "Пройдена, другое место";
+"aerotickets.registration.REGISTRATED_WITHOUT_BOARDING_PASS" = "Пройдена, без посадочного талона";
+
+"aerotickets.routeType.ONE_WAY" = "В одну сторону";
+"aerotickets.routeType.THERE_AND_BACK" = "Туда и обратно";
+"aerotickets.routeType.SEVERAL_WAYS" = "Сложный";
+
+"aerotickets.bookingNumber" = "№ брони";
+"aerotickets.ticketNumber" = "№ билета";
+"aerotickets.carrier" = "Перевозчик";
+"aerotickets.seat" = "Место";
+"aerotickets.registrationStatus" = "Регистрация на рейс";
+"aerotickets.routeType" = "Маршрут";
+"aerotickets.departureTime" = "Время вылета";
+"aerotickets.departureGate" = "Гейт вылета";
+"aerotickets.arrivalTime" = "Время прилета";
+"aerotickets.arrivalGate" = "Гейт прилета";
+"aerotickets.createdAt" = "Дата бронирования";
+"aerotickets.updatedAt" = "Последнее изменение";
+"aerotickets.comment" = "Комментарий";

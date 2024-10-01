@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppIdentifierPrefix</key>
+	<string>$(AppIdentifierPrefix)</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>PRIME Italy</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>primeitaly</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCalendarsUsageDescription</key>
+	<string>We’d like to access your calendar to add relevant events</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Для отправки фото в чате</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Для отправки контактов в чате</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>This application uses Face ID for authorization</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Это поможет нам быстрее
+помочь Вам</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Это поможет нам быстрее
+помочь Вам</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Для записи аудиосообщений в чате</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Для отправки фото в чате</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Ваши данные будут использованы для измерения эффективности рекламных кампаний</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PlayfairDisplay-Bold.ttf</string>
+		<string>GothamPro-Bold.ttf</string>
+		<string>GothamPro-Italic.ttf</string>
+		<string>GothamPro-Light.ttf</string>
+		<string>GothamPro-Medium.ttf</string>
+		<string>GothamPro.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_fxkqckkeDPnrfkv2emH9RhhkDFnNg45g</string>
+		<key>test</key>
+		<string>key_test_cxjxkahduNgFmgt0pfM0RgcdDvnRc54r</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>hf8ji.app.link</string>
+		<string>hf8ji-alternate.app.link</string>
+		<string>hf8ji.test-app.link</string>
+		<string>hf8ji-alternate.test-app.link</string>
+	</array>
+</dict>
+</plist>

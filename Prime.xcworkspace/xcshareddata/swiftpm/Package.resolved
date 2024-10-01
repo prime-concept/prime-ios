@@ -1,0 +1,41 @@
+{
+  "originHash" : "8556c14e0af0e1715528c1def5d80d94f7275a06c2047fef66370c3d3ce931c3",
+  "pins" : [
+    {
+      "identity" : "grdb.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/groue/GRDB.swift.git",
+      "state" : {
+        "revision" : "dd7e7f39e8e4d7a22d258d9809a882f914690b01",
+        "version" : "5.26.1"
+      }
+    },
+    {
+      "identity" : "primecomponents",
+      "kind" : "remoteSourceControl",
+      "location" : "https://git.lgn.me/prime/prime-2/PrimeComponents",
+      "state" : {
+        "revision" : "f85224f3d5824140701ac012943a0173704741d7"
+      }
+    },
+    {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream.git",
+      "state" : {
+        "revision" : "a063fda2b8145a231953c20e7a646be254365396",
+        "version" : "3.1.2"
+      }
+    },
+    {
+      "identity" : "swifttrycatchspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KimIlKyum/SwiftTryCatchSPM.git",
+      "state" : {
+        "revision" : "246bfce2caa550b88708b06b25b59b1a270f4c76",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}

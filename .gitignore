@@ -1,0 +1,31 @@
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+Prime.xcworkspace/xcuserdata/
+Prime.xcodeproj/xcuserdata/
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+SDK/
+Pods/
+Carthage/Build
+
+.DS_Store
+
+# AppCode
+.idea/
+
+fastlane/report.xml

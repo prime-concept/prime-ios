@@ -1,0 +1,9 @@
+query Countries($lang: String!) {
+    dict {
+        countries(lang: $lang) {
+            id
+            code
+            name
+        }
+    }
+}

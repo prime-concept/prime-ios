@@ -1,0 +1,26 @@
+name: 'gh/check_commit'
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - reopened
+      - synchronize
+  push:
+    branches:
+      - '*'
+
+jobs:
+  check-commit-message:
+    name: Commit starts with task number
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check commit title
+        uses: gsactions/commit-message-checker@v1
+        with:
+          pattern: '^(PRIME-[0-9]+|Merge).+$'
+          error: 'Имя коммита должно начинаться с номера задачи'
+          excludeDescription: 'true'
+          excludeTitle: 'true'
+          checkAllCommitMessages: 'true'
+          accessToken: ${{ secrets.GITHUB_TOKEN }}

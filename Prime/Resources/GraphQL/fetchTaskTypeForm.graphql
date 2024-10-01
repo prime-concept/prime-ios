@@ -1,0 +1,23 @@
+query FetchTaskTypeForm($formId: Int!) {
+    taskTypeForm(id: $formId) {
+        lang
+        field : fields {
+            allowBlank
+            defaultValue
+            hidden
+            label
+            maxLength
+            name
+            options {
+                name
+                value
+                visibilityClear
+                visibilitySet
+            }
+            readOnly
+            type
+            partnerTypeId
+            visibility
+        }
+    }
+}

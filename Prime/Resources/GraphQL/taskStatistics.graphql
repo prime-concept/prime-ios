@@ -1,0 +1,11 @@
+query TaskStatistics($lang: String!) {
+	viewer(lang: $lang){
+		__typename
+			... on Customer {
+			taskStatistics {
+				total
+				completed
+			}
+		}
+	}
+}

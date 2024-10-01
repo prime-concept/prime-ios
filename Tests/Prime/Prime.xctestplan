@@ -1,0 +1,51 @@
+{
+  "configurations" : [
+    {
+      "id" : "E77872F2-7DD3-4FE1-8F9B-80ADCE01F264",
+      "name" : "Standard",
+      "options" : {
+        "defaultTestExecutionTimeAllowance" : 60,
+        "testExecutionOrdering" : "random",
+        "testRepetitionMode" : "retryOnFailure",
+        "testTimeoutsEnabled" : true
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:Prime.xcodeproj",
+          "identifier" : "5C84E445250FE76000BD30AF",
+          "name" : "Prime"
+        },
+        {
+          "containerPath" : "container:Pods\/Pods.xcodeproj",
+          "identifier" : "BCB7AD4C84DAF01D80419DBFB6EEC058",
+          "name" : "ChatSDK"
+        }
+      ]
+    },
+    "commandLineArgumentEntries" : [
+      {
+        "argument" : "-FIRDebugEnabled",
+        "enabled" : false
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Prime.xcodeproj",
+      "identifier" : "5C84E445250FE76000BD30AF",
+      "name" : "Prime"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Prime.xcodeproj",
+        "identifier" : "5655A4DF2A765A0700F706AF",
+        "name" : "Prime-Tests"
+      }
+    }
+  ],
+  "version" : 1
+}

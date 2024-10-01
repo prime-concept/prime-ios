@@ -1,0 +1,6 @@
+// Contact Prime
+"contact.prime.title" = "Prime Club — это\nзакрытый клуб";
+"contact.prime.call.prime" = "Позвонить в Prime Club";
+
+"card.verification.info" = "Для входа в приложение укажите Ваш уникальный номер карты Prime Club";
+"card.verification.error" = "неверно указан номер";

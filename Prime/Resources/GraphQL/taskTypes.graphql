@@ -1,0 +1,11 @@
+query TaskTypes($lang: String!, $clientId: String) {
+    dict {
+        taskTypes(lang: $lang, clientId: $clientId) {
+            id
+            name
+            deleted
+            groupId
+            rowNumber
+        }
+    }
+}

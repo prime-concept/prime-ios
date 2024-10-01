@@ -1,0 +1,6 @@
+// Contact Prime
+"contact.prime.title" = "Prime Club is a\nprivate club";
+"contact.prime.call.prime" = "Call Prime Club";
+
+"card.verification.info" = "Enter your unique Prime Club card number to log into the app";
+"card.verification.error" = "incorrect number entered";

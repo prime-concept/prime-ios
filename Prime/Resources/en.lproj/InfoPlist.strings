@@ -1,0 +1,12 @@
+// Privacy
+
+"NSCalendarsUsageDescription" = "We'd like to access your calendar to add relevant events";
+"NSCameraUsageDescription" = "To take photos in the chat";
+"NSContactsUsageDescription" = "To send contacts in the chat";
+"NSFaceIDUsageDescription" = "This application uses Face ID for authorization";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "We use geolocation to offer you taxis and transfers, suggest the best nearby places of interests like restaurants, hotels, museums, to provide city recommendations according to where you stay";
+"NSLocationWhenInUseUsageDescription" = "We use geolocation to offer you taxis and transfers, suggest the best nearby places of interests like restaurants, hotels, museums, to provide city recommendations according to where you stay";
+"NSMicrophoneUsageDescription" = "To record voice messages in the chat";
+"NSPhotoLibraryUsageDescription" = "To send pictures in the chat";
+"NSUserTrackingUsageDescription" = "Your data will be used to measure the effectiveness of advertising campaigns";
+

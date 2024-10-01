@@ -1,0 +1,17 @@
+query Partners($lang: String!, $type: [Int], $q: String, $limit: Int) {
+    partners(lang: $lang, type: $type, q: $q, limit: $limit) {
+        id
+        name
+        city {
+            id
+            name
+            country {
+                id
+                name
+            }
+        }
+        latitude
+        longitude
+        stars
+    }
+}

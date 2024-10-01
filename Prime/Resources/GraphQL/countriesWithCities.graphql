@@ -1,0 +1,12 @@
+query CountriesWithCities($q: String, $lang: String!) {
+    dict {
+        countries(q: $q, lang: $lang) {
+            id
+            name
+            cities {
+                id
+                name
+            }
+        }
+    }
+}

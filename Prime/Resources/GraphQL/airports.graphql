@@ -1,0 +1,21 @@
+query Airports($lang: String!, $lastUpdatedAt: Int!) {
+    dict {
+        airports(lang: $lang, lastUpdatedAt: $lastUpdatedAt) {
+            altCountryName
+            altCityName
+            isHub
+            altName
+            city
+            code
+            country
+            deleted
+            id
+            latitude
+            longitude
+            name
+            updatedAt
+            cityId
+            vipLoungeCost
+        }
+    }
+}

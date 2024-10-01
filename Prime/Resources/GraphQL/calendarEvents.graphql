@@ -1,0 +1,25 @@
+query CalendarEventsQuery($lang: String!, $year: Int!, $month: Int!) {
+    viewer(lang: $lang){
+        __typename
+            ... on Customer {
+            events(month: $month, year: $year) {
+                allDay
+                backgroundImageUrl
+                customerId
+                customerName
+                description
+                endDate
+                id
+                latitude
+                location
+                longitude
+                startDate
+                taskId
+                taskInfoId
+                taskTypeId
+                title
+                url
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+query Tasks($lang: String!, $limit: Int, $offset: Int, $orderFilter: OrdersSearchFilter, $etag: String, $completed: Boolean, $taskTypeId: Int, $order: TaskOrder) {
+    viewer(lang: $lang){
+        __typename
+            ... on Customer {
+            tasks(limit: $limit, offset: $offset, etag: $etag, completed: $completed, taskTypeId: $taskTypeId, order: $order) {
+                chatId
+                completed
+                completedAt
+                customerId
+                date
+                description
+                startServiceDate
+                endServiceDate
+                latitude
+                longitude
+                id
+                optionId
+                orders(filter: $orderFilter) {
+                    amount
+                    currency
+                    description
+                    dueDate
+                    id
+                    initiatorUserId
+                    initiatorUserName
+                    optionId
+                    orderStatus
+                    paymentLink
+                    paymentUid
+                    taskId
+                }
+                requestDate
+                reserved
+                taskId
+                taskType {
+                    deleted
+                    id
+                    name
+                }
+                title
+                taskCloseState
+                lastChatMessage {
+                    guid
+                    clientId
+                    channelId
+                    source
+                    timestamp
+                    status
+                    type
+                    content
+                    meta
+                }
+                responsible {
+                    lastName
+                    firstName
+                    phone
+                    profileType
+                }
+                etag
+                deleted
+                address
+                updatedAt
+                unreadCount
+            }
+        }
+    }
+}

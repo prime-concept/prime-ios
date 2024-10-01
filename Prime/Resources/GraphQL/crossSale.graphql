@@ -1,0 +1,14 @@
+query CrossSale($lang: String!) {
+  viewer {
+    ... on Customer {
+      taskTypesWithRelated(lang: $lang) {
+        id
+        name
+        related {
+          id
+          name
+        }
+      }
+    }
+  }
+}
